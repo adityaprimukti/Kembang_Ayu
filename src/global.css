@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Mate:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-cormorant-garamond: "Cormorant Garamond";
+  --font-inter: Inter;
+  --font-dancing-script: "Dancing Script";
+  --font-corinthia: Corinthia;
+  --font-great-vibes: "Great Vibes";
+  --font-crimson-text: "Crimson Text";
+  --font-mate: Mate;
+  --font-nunito-sans: "Nunito Sans";
+
+  /* font sizes */
+  --font-size-21xl: 40px;
+  --font-size-11xl: 30px;
+  --font-size-71xl: 90px;
+  --font-size-5xl: 24px;
+  --font-size-16xl: 35px;
+  --font-size-6xl: 25px;
+  --font-size-14xl-8: 33.8px;
+  --font-size-xl: 20px;
+  --font-size-51xl: 70px;
+  --font-size-13xl: 32px;
+  --font-size-xs: 12px;
+  --font-size-base: 16px;
+  --font-size-2xl-3: 21.3px;
+  --font-size-xl-3: 20.3px;
+
+  /* Colors */
+  --color-6: #fff;
+  --primer: #fff7f8;
+  --putih: #fdfdfd;
+  --color-gray-100: #fafdff;
+  --color-8: #1b1b1b;
+  --color-7: #141414;
+  --color-dimgray-100: #6b6262;
+  --color-dimgray: #76583f;
+  --color-black: #000;
+  --color-indianred: #e16463;
+  --color-darkslategray: #2b3751;
+  --color-darkgray-100: #b1aeae;
+  --color-darkgray-200: #9f9f9f;
+  --color-pink: #fed3dd;
+  --color-lightpink: #f2a0ac;
+  --biru-tua: #2f327d;
+  --color-darkslateblue-100: rgba(47, 50, 125, 0.5);
+  --color-gainsboro: #dfe6eb;
+
+  /* Gaps */
+  --gap-379xl: 398px;
+  --gap-42xl: 61px;
+  --gap-3xs: 10px;
+  --gap-mini: 15px;
+
+  /* Paddings */
+  --padding-21xl: 40px;
+  --padding-39xl: 58px;
+  --padding-4xs-9: 8.9px;
+  --padding-28xl: 47px;
+  --padding-sm: 14px;
+  --padding-6xl: 25px;
+  --padding-mini: 15px;
+  --padding-11xs: 2px;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+  --br-3xs: 10px;
+  --br-9xs: 4px;
+  --br-4xs: 9px;
+  --br-sm: 14px;
+}

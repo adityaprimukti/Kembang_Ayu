@@ -1,0 +1,394 @@
+.span8 {
+  color: var(--color-indianred);
+}
+.service8 {
+  font-family: var(--font-cormorant-garamond);
+  color: var(--color-black);
+}
+.our-service-txt-container3 {
+  width: 100%;
+}
+.our-service40 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  line-height: 110%;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+}
+.our-service-wrapper15,
+.our-service39 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 441px;
+  height: 74px;
+}
+.our-service-wrapper15 {
+  top: 76px;
+  left: 69px;
+  text-align: left;
+  font-family: var(--font-corinthia);
+}
+.spa-is-a {
+  margin: 0;
+}
+.spa-is-a-container {
+  position: absolute;
+  width: 52.45%;
+  top: calc(50% - 512px);
+  left: 42.4%;
+  font-size: var(--font-size-16xl);
+  line-height: 150%;
+  color: var(--color-7);
+  display: flex;
+  align-items: center;
+  height: 1024px;
+}
+.span9 {
+  font-weight: 600;
+  white-space: pre-wrap;
+}
+.spa-treatment-50-min1 {
+  background: linear-gradient(139.41deg, #c9a180, #3b2410);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.steam-mud-application {
+  white-space: pre-wrap;
+}
+.spa-treatment-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  line-height: 110%;
+  display: inline-block;
+}
+.spa-treatment-50-min-50-ste-wrapper {
+  position: absolute;
+  height: 44.36%;
+  width: 99.29%;
+  top: 55.64%;
+  right: 0;
+  bottom: 0;
+  left: 0.71%;
+}
+.desain-tanpa-judul18-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 566px;
+  height: 388px;
+  object-fit: cover;
+}
+.group-parent7 {
+  position: absolute;
+  height: 77.05%;
+  width: 29.48%;
+  top: 19.53%;
+  right: 64.06%;
+  bottom: 3.42%;
+  left: 6.46%;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray);
+}
+.service-all1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-6);
+  width: 1920px;
+  height: 1024px;
+  overflow: hidden;
+  font-size: var(--font-size-71xl);
+  color: var(--color-dimgray);
+}
+.reduces-dandruff-problems {
+  margin-bottom: 0;
+}
+.reduces-dandruff-problems-bala {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-28xl);
+}
+.the-goal-is-container {
+  position: absolute;
+  width: 51.51%;
+  top: calc(50% - 512px);
+  left: 42.4%;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  height: 1024px;
+}
+.hair-treatment6 {
+  font-family: var(--font-inter);
+}
+.blank-line24 {
+  background: linear-gradient(139.41deg, #c9a180, #3b2410);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: pre-wrap;
+}
+.hair-treatment-50-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  line-height: 110%;
+  display: flex;
+  align-items: center;
+}
+.group-parent8,
+.hair-treatment-50-650-choo-wrapper {
+  position: absolute;
+  height: 38.73%;
+  width: 100%;
+  top: 61.27%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.group-parent8 {
+  height: 67.58%;
+  width: 29.48%;
+  top: 16.21%;
+  right: 64.06%;
+  bottom: 16.21%;
+  left: 6.46%;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray);
+}
+.service-all2 {
+  position: absolute;
+  top: 1024px;
+  left: 0;
+  background-color: var(--color-6);
+  width: 1920px;
+  height: 1024px;
+  overflow: hidden;
+}
+.elegant-nail-art-container {
+  position: absolute;
+  top: calc(50% - 512px);
+  left: calc(50% - 135px);
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  width: 978px;
+  height: 1024px;
+}
+.group-parent9,
+.nails-150-450-choose-the-d-wrapper {
+  position: absolute;
+  height: 30.83%;
+  width: 100%;
+  top: 69.17%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.group-parent9 {
+  height: 61.13%;
+  width: 29.48%;
+  top: 19.43%;
+  right: 64.06%;
+  bottom: 19.43%;
+  left: 6.46%;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray);
+}
+.service-all3 {
+  position: absolute;
+  top: 2048px;
+  left: 2px;
+  background-color: var(--color-6);
+  width: 1920px;
+  height: 1024px;
+  overflow: hidden;
+}
+.copyright-2024-4 {
+  position: absolute;
+  height: 5.41%;
+  top: 90.26%;
+  left: calc(50% - 158px);
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  width: 317px;
+}
+.kembang-ayu10 {
+  position: absolute;
+  top: 0;
+  left: 37px;
+  display: inline-block;
+  width: 543px;
+}
+.telepon-888-555-1234-instagr5 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-21xl);
+}
+.jl-marunda-makmur-container4 {
+  position: absolute;
+  height: 67.13%;
+  width: 88.97%;
+  top: 32.87%;
+  left: 0;
+  font-size: var(--font-size-11xl);
+  line-height: 150%;
+  font-family: var(--font-inter);
+  color: var(--color-6);
+  text-align: justify;
+  display: inline-block;
+}
+.kembang-ayu-parent2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 580px;
+  height: 575px;
+  font-size: var(--font-size-71xl);
+  color: var(--primer);
+  font-family: var(--font-dancing-script);
+}
+.about-service-contact-container4 {
+  position: absolute;
+  height: 82.38%;
+  width: 91.39%;
+  top: 17.62%;
+  left: 0;
+  font-size: var(--font-size-11xl);
+  line-height: 300%;
+  font-family: var(--font-inter);
+  text-align: justify;
+  display: inline-block;
+}
+.our-service-wrapper16 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 174.3px;
+  height: 74px;
+}
+.about-service-contact-us-our-c-parent2 {
+  position: absolute;
+  height: 58.01%;
+  width: 10.49%;
+  top: 6.08%;
+  right: 50.41%;
+  bottom: 35.91%;
+  left: 39.1%;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-cormorant-garamond);
+}
+.spa-treatment-hair-container4 {
+  position: absolute;
+  height: 87.93%;
+  width: 100%;
+  top: 12.07%;
+  left: 0;
+  line-height: 300%;
+  display: inline-block;
+}
+.our-service-wrapper18,
+.our-service45 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 241.8px;
+  height: 72.8px;
+}
+.our-service-wrapper18 {
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-cormorant-garamond);
+}
+.spa-treatment-hair-treatment-n-parent2 {
+  position: absolute;
+  height: 83.29%;
+  width: 17.82%;
+  top: 6.08%;
+  right: 26.96%;
+  bottom: 10.64%;
+  left: 55.22%;
+  text-align: justify;
+}
+.green-house-boutique-container6 {
+  position: absolute;
+  height: 90.66%;
+  width: 100%;
+  top: 9.34%;
+  left: 0;
+  line-height: 300%;
+  display: inline-block;
+}
+.our-service-wrapper19,
+.our-service47 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 241.8px;
+  height: 63.2px;
+}
+.our-service-wrapper19 {
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-cormorant-garamond);
+}
+.green-house-boutique-indonesia-parent2 {
+  position: absolute;
+  height: 93.51%;
+  width: 21.34%;
+  top: 6.49%;
+  right: 0;
+  bottom: 0;
+  left: 78.66%;
+  text-align: justify;
+}
+.group-parent10 {
+  position: absolute;
+  top: 150px;
+  left: 148px;
+  width: 1661px;
+  height: 724px;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+}
+.footer4 {
+  position: absolute;
+  top: 3072px;
+  left: 2px;
+  background: linear-gradient(
+    180deg,
+    #f1ebe6,
+    #cab5a3 10.17%,
+    #a38062 21.67%,
+    #70533a 54.92%,
+    #3c2511
+  );
+  width: 1920px;
+  height: 1024px;
+  overflow: hidden;
+  font-size: var(--font-size-5xl);
+  color: var(--color-6);
+}
+.all-service {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-6);
+  height: 4096px;
+  overflow: hidden;
+  text-align: justify;
+  font-size: var(--font-size-16xl);
+  color: var(--color-7);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,727 @@
+.home-child {
+    position: absolute;
+    top: -109px;
+    left: 0;
+    background: linear-gradient(
+      145.92deg,
+      #fff,
+      #caa180 52.17%,
+      #a98567 64.5%,
+      #472e19
+    );
+    width: 1920px;
+    height: 1248px;
+  }
+  .home-item {
+    position: absolute;
+    top: 281px;
+    left: 915px;
+    border-radius: 50%;
+    background: linear-gradient(
+      141.98deg,
+      rgba(246, 246, 246, 0.56),
+      rgba(217, 217, 217, 0.24)
+    );
+    width: 1144px;
+    height: 1098px;
+  }
+  .home-inner {
+    position: absolute;
+    top: 155px;
+    left: 1104px;
+    width: 837px;
+    height: 869px;
+    object-fit: cover;
+  }
+  .natural-beauty-is {
+    position: absolute;
+    height: 18.65%;
+    width: 42.66%;
+    top: 56.69%;
+    left: 7.92%;
+    line-height: 150%;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+  }
+  .kembang-ayu {
+    position: relative;
+  }
+  .kembang-ayu-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-4xs-9);
+    text-decoration: none;
+  }
+  .home1 {
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .home1,
+  .About,
+  .send,
+  .send2,
+  .ContactUs,
+  .service {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .ContactUs{
+    color: white;
+    text-decoration: none !important;
+  }
+  
+  .no-underline{
+    text-decoration: none !important;
+  }
+  .frame-group {
+    flex-direction: row;
+    gap: var(--gap-42xl);
+    font-size: var(--font-size-11xl);
+    font-family: var(--font-inter);
+    text-decoration: none;
+  }
+  .frame-group,
+  .frame-parent,
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frame-parent {
+    flex-direction: row;
+    gap: var(--gap-379xl);
+  }
+  .navbar {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    background: linear-gradient(139.41deg, #c9a180, #3b2410);
+    width: 1920px;
+    height: 105px;
+    overflow: hidden;
+    flex-direction: column;
+    padding: 0 var(--padding-39xl);
+    box-sizing: border-box;
+    font-size: 50px;
+    color: var(--primer);
+    font-family: var(--font-dancing-script);
+  }
+  .instance-child,
+  .send {
+    position: absolute;
+    height: 100%;
+    top: 0;
+  }
+  .instance-child {
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .send {
+    width: 74.61%;
+    left: 12.69%;
+    line-height: 110%;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .vector-parent {
+    position: absolute;
+    top: 779px;
+    left: 152px;
+    width: 308px;
+    height: 79px;
+    text-align: center;
+    font-size: var(--font-size-11xl);
+    color: var(--color-6);
+    font-family: var(--font-cormorant-garamond);
+  }
+  .natural-beauty {
+    top: 435px;
+    left: 149px;
+    font-size: var(--font-size-71xl);
+    letter-spacing: 0.1em;
+    line-height: 90%;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: var(--font-crimson-text);
+    color: var(--color-black);
+    display: inline-block;
+    width: 903px;
+    height: 117px;
+  }
+  .home,
+  .natural-beauty,
+  .your {
+    position: absolute;
+  }
+  .your {
+    top: 250px;
+    left: 70px;
+    font-size: 200px;
+    letter-spacing: 0.1em;
+    line-height: 90%;
+    text-transform: capitalize;
+    font-family: var(--font-great-vibes);
+    background: linear-gradient(139.41deg, #c9a180, #3b2410);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    width: 581px;
+    height: 184px;
+  }
+  .home {
+    top: 0;
+    left: -1px;
+    background: linear-gradient(180deg, #fff, #999 94.95%);
+    width: 1920px;
+    height: 1024px;
+    overflow: hidden;
+    font-family: var(--font-mate);
+  }
+  .group-icon,
+  .mask-group-icon {
+    position: absolute;
+    height: 73.54%;
+    width: 31.82%;
+    top: 10.64%;
+    right: 55.89%;
+    bottom: 15.82%;
+    left: 12.29%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .mask-group-icon {
+    height: 75.48%;
+    width: 36.31%;
+    top: 8.69%;
+    right: 56.04%;
+    bottom: 15.83%;
+    left: 7.66%;
+    object-fit: contain;
+  }
+  .us {
+    font-family: var(--font-corinthia);
+    color: var(--color-dimgray);
+  }
+  .about-us-txt-container {
+    width: 100%;
+  }
+  .about-us2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    line-height: 110%;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+  }
+  .about-us1 {
+    position: absolute;
+    top: 110px;
+    left: 1133px;
+    width: 372px;
+    height: 74px;
+  }
+  .since-2004-we {
+    position: absolute;
+    width: 43.8%;
+    top: calc(50% - 287px);
+    left: 50.26%;
+    font-size: var(--font-size-16xl);
+    line-height: 150%;
+    font-family: var(--font-inter);
+    text-align: justify;
+    display: inline-block;
+    height: 471px;
+  }
+  .vector-group {
+    position: absolute;
+    top: 763px;
+    left: 960px;
+    width: 308px;
+    height: 79px;
+    text-align: center;
+    font-size: var(--font-size-11xl);
+    color: var(--color-6);
+  }
+  .about-us {
+    position: absolute;
+    top: 1024px;
+    left: 3px;
+    background-color: var(--color-6);
+    width: 1920px;
+    height: 1024px;
+    overflow: hidden;
+    font-size: var(--font-size-71xl);
+  }
+  .our-service-child {
+    position: absolute;
+    top: calc(50% - 345.5px);
+    left: calc(50% - 635px);
+    border-radius: 50px;
+    background: linear-gradient(
+      163.27deg,
+      #f1ebe6,
+      #cab5a3 50%,
+      #a38062 75%,
+      #70533a 87.5%,
+      #3c2511
+    );
+    width: 1271px;
+    height: 691px;
+  }
+  .overall-care-includes,
+  .this-will-maximize {
+    position: absolute;
+    line-height: 110%;
+    display: flex;
+    align-items: center;
+  }
+  .overall-care-includes {
+    height: 15.82%;
+    width: 45.97%;
+    top: 67.49%;
+    left: 2.05%;
+  }
+  .this-will-maximize {
+    height: 11.32%;
+    top: 69.67%;
+    left: calc(50% + 28px);
+    width: 582px;
+  }
+  .image-5-icon {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .image-5,
+  .image-51 {
+    position: absolute;
+    top: 40px;
+    left: 26px;
+    width: 582px;
+    height: 386px;
+  }
+  .image-51 {
+    left: 661px;
+  }
+  .our-service1 {
+    position: absolute;
+    top: 129px;
+    left: calc(50% - 633px);
+    background-color: var(--color-6);
+    width: 1266px;
+    height: 689px;
+    overflow: hidden;
+  }
+  .span {
+    color: var(--color-indianred);
+  }
+  .service1 {
+    font-family: var(--font-cormorant-garamond);
+    color: var(--color-black);
+  }
+  .our-service-wrapper,
+  .our-service2 {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 215px);
+    width: 430px;
+    height: 74px;
+  }
+  .our-service-wrapper {
+    text-align: left;
+    font-size: var(--font-size-71xl);
+    color: var(--color-dimgray);
+    font-family: var(--font-corinthia);
+  }
+  .our-service-parent {
+    position: absolute;
+    top: 103px;
+    left: calc(50% - 633px);
+    width: 1266px;
+    height: 818px;
+  }
+  .our-service {
+    position: absolute;
+    top: 2048px;
+    left: -1px;
+    background-color: var(--color-6);
+    width: 1920px;
+    height: 1024px;
+    overflow: hidden;
+    text-align: justify;
+    font-size: var(--font-size-11xl);
+    color: var(--color-6);
+    font-family: var(--font-inter);
+  }
+  .desain-tanpa-judul22 {
+    position: absolute;
+    height: 85.27%;
+    width: 85.17%;
+    top: 0;
+    right: 10.17%;
+    bottom: 14.73%;
+    left: 4.66%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .group-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+    background-color: var(--color-6);
+  }
+  .sofiia,
+  .the-product-is {
+    position: absolute;
+    line-height: 110%;
+    display: inline-block;
+  }
+  .sofiia {
+    height: 19.38%;
+    width: 21.12%;
+    top: 72.07%;
+    left: 68.06%;
+    text-transform: capitalize;
+  }
+  .the-product-is {
+    height: 42.51%;
+    top: 21.27%;
+    left: calc(50% - 182.1px);
+    font-size: var(--font-size-6xl);
+    font-family: var(--font-inter);
+    text-align: left;
+    width: 365.2px;
+    
+  }
+  .rectangle-parent {
+    position: absolute;
+    height: 100.19%;
+    width: 101.39%;
+    top: 0;
+    right: 0.02%;
+    bottom: -0.19%;
+    left: -1.41%;
+  }
+  .group-wrapper {
+    position: absolute;
+    height: 35.98%;
+    width: 71.19%;
+    top: 63.95%;
+    right: 0.99%;
+    bottom: 0.07%;
+    left: 27.82%;
+  }
+  .instance-child1,
+  .instance-inner {
+    position: absolute;
+    height: 25.99%;
+    width: 25.98%;
+    top: 25.65%;
+    right: 4.16%;
+    bottom: 57.36%;
+    left: 76.86%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .instance-child1 {
+    height: 11.06%;
+    width: 11.04%;
+    top: 31.61%;
+    right: 88.96%;
+    bottom: 57.33%;
+    left: 0;
+    object-fit: contain;
+  }
+  .desain-tanpa-judul22-parent {
+    position: absolute;
+    top: calc(50% - 373px);
+    left: 1040px;
+    width: 747px;
+    height: 746px;
+  }
+  .what-our {
+    margin: 0;
+  }
+  .what-our-customer-container {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 406.5px);
+    line-height: 110%;
+    text-transform: capitalize;
+    display: inline-block;
+    width: 685.5px;
+    height: 156px;
+  }
+  .more-than-10000,
+  .send2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+  }
+  .more-than-10000 {
+    height: 37.81%;
+    width: 100%;
+    top: 37.99%;
+    left: 0;
+    font-size: var(--font-size-16xl);
+    line-height: 150%;
+    font-family: var(--font-inter);
+    text-align: justify;
+  }
+  .send2 {
+    height: 100%;
+    width: 74.62%;
+    top: 0;
+    left: 12.69%;
+    line-height: 110%;
+    text-transform: capitalize;
+    justify-content: center;
+    color: white;
+  }
+  .vector-container {
+    position: absolute;
+    top: 479px;
+    left: 0;
+    width: 396.3px;
+    height: 79px;
+    text-align: center;
+    font-size: var(--font-size-11xl);
+    color: var(--color-6);
+  }
+  .what-our-customer-say-parent {
+    position: absolute;
+    top: 204px;
+    left: calc(50% - 813px);
+    width: 813px;
+    height: 558px;
+    text-align: left;
+    font-size: var(--font-size-71xl);
+  }
+  .customer-say {
+    position: absolute;
+    top: 3072px;
+    left: 1px;
+    background-color: var(--color-6);
+    width: 1920px;
+    height: 1024px;
+    overflow: hidden;
+    text-align: right;
+    font-size: var(--font-size-14xl-8);
+  }
+  .copyright-2024- {
+    position: absolute;
+    height: 5.41%;
+    top: 90.26%;
+    left: calc(50% - 158px);
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    width: 317px;
+  }
+  .kembang-ayu1 {
+    position: absolute;
+    top: 0;
+    left: 37px;
+    display: inline-block;
+    width: 543px;
+  }
+  .instagram-kembangayuid {
+    margin-bottom: 0;
+  }
+  .telepon-888-555-1234-instagr {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-21xl);
+  }
+  .jl-marunda-makmur-container {
+    position: absolute;
+    height: 67.13%;
+    width: 88.97%;
+    top: 32.87%;
+    left: 0;
+    font-size: var(--font-size-11xl);
+    line-height: 150%;
+    font-family: var(--font-inter);
+    color: var(--color-6);
+    text-align: justify;
+    display: inline-block;
+  }
+  .kembang-ayu-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 580px;
+    height: 575px;
+    font-size: var(--font-size-71xl);
+    color: var(--primer);
+    font-family: var(--font-dancing-script);
+  }
+  .about-service-contact-container {
+    position: absolute;
+    height: 82.38%;
+    width: 91.39%;
+    top: 17.62%;
+    left: 0;
+    font-size: var(--font-size-11xl);
+    line-height: 300%;
+    font-family: var(--font-inter);
+    text-align: justify;
+    display: inline-block;
+  }
+  .our-service-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 174.3px;
+    height: 74px;
+  }
+  .about-service-contact-us-our-c-parent {
+    position: absolute;
+    height: 58.01%;
+    width: 10.49%;
+    top: 6.08%;
+    right: 50.41%;
+    bottom: 35.91%;
+    left: 39.1%;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-cormorant-garamond);
+  }
+  .spa-treatment-hair-container {
+    position: absolute;
+    height: 87.93%;
+    width: 100%;
+    top: 12.07%;
+    left: 0;
+    line-height: 300%;
+    display: inline-block;
+  }
+  .group-div,
+  .our-service8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 241.8px;
+    height: 72.8px;
+  }
+  .group-div {
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-cormorant-garamond);
+  }
+  .spa-treatment-hair-treatment-n-parent {
+    position: absolute;
+    height: 83.29%;
+    width: 17.82%;
+    top: 6.08%;
+    right: 26.96%;
+    bottom: 10.64%;
+    left: 55.22%;
+    text-align: justify;
+  }
+  .green-house-boutique-container {
+    position: absolute;
+    height: 90.66%;
+    width: 100%;
+    top: 9.34%;
+    left: 0;
+    line-height: 300%;
+    display: inline-block;
+  }
+  .our-service-wrapper1,
+  .our-service10 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 241.8px;
+    height: 63.2px;
+  }
+  .our-service-wrapper1 {
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-cormorant-garamond);
+  }
+  .green-house-boutique-indonesia-parent {
+    position: absolute;
+    height: 93.51%;
+    width: 21.34%;
+    top: 6.49%;
+    right: 0;
+    bottom: 0;
+    left: 78.66%;
+    text-align: justify;
+  }
+  .footer,
+  .group-parent {
+    position: absolute;
+    top: 150px;
+    left: 148px;
+    width: 1661px;
+    height: 724px;
+    text-align: left;
+    font-size: var(--font-size-11xl);
+  }
+  .footer {
+    top: 4096px;
+    left: 0;
+    background: linear-gradient(
+      180deg,
+      #f1ebe6,
+      #cab5a3 10.17%,
+      #a38062 21.67%,
+      #70533a 54.92%,
+      #3c2511
+    );
+    width: 1920px;
+    height: 1024px;
+    overflow: hidden;
+    text-align: justify;
+    font-size: var(--font-size-5xl);
+    color: var(--color-6);
+    font-family: var(--font-inter);
+  }
+  .home-sesudah-login {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-6);
+    height: 5120px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-16xl);
+    color: var(--color-8);
+    font-family: var(--font-cormorant-garamond);
+  }
+  
