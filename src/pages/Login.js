@@ -7,33 +7,33 @@ const Login = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
-  const [showSuccess, setShowSuccess] = useState(false); // State to manage success message
+  const [showSuccess, setShowSuccess] = useState(false);
   const navigate = useNavigate();
 
   const handleLogin = async (e) => {
     e.preventDefault();
-    // Check if any field is empty
     if (!username || !password) {
       setError("Silahkan isi pada kolom");
       return;
     }
     try {
-      const response = await axios.post('http://localhost:3008/login', {
+      const response = await axios.post('http://localhost:3000/login', {
         username,
         password,
       });
       if (response.data === 'Login successful') {
-        // Show success message for 5 seconds
         setShowSuccess(true);
+        setError(""); // Clear any previous errors
         setTimeout(() => {
           setShowSuccess(false);
-          navigate('/Home'); // Redirect to home page or any other page after successful login
-        }, 5000);
+          navigate('/AfterHome'); // Redirect to home page or any other page after successful login
+        }, 3000);
       } else {
-        alert('Invalid credentials');
+        setError('Invalid credentials');
       }
     } catch (error) {
-      alert('Username atau Password salah, Silahkan periksa kembali');
+      setError('Username atau Password salah, Silahkan periksa kembali');
+      console.error('Login error:', error);
     }
   };
 
@@ -64,9 +64,7 @@ const Login = () => {
           />
         </div>
         <div className="login-wrapper">
-        <Link to="/AfterHome">
-          <button type="submit" className="login1">Login</button>
-          </Link>
+            <button type="submit" className="login1">Login</button>
         </div>
         {error && <div className="error-message">{error}</div>}
       </form>

@@ -9,11 +9,16 @@ const Register = () => {
   const [phone, setPhone] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
-  const [showSuccess, setShowSuccess] = useState(false); // State to manage success message
+  const [showSuccess, setShowSuccess] = useState(false);
   const navigate = useNavigate();
 
   const handleRegister = async (e) => {
     e.preventDefault();
+    // Basic validation
+    if (!username || !email || !phone || !password) {
+      setError("All fields are required");
+      return;
+    }
     try {
       const response = await axios.post('http://localhost:3000/register', {
         username,
@@ -22,18 +27,18 @@ const Register = () => {
         password,
       });
       if (response.data === 'User registered successfully') {
-        // Show success message for 5 seconds
         setShowSuccess(true);
+        setError(""); // Clear any previous errors
         setTimeout(() => {
           setShowSuccess(false);
           navigate('/Login');
-        }, 30000);
+        }, 5000);
       } else {
         setError('Registration failed');
       }
     } catch (error) {
       setError('An error occurred during registration');
-      console.error('Registration error:', error); // Log the error for debugging
+      console.error('Registration error:', error);
     }
   };
 
