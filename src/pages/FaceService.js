@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../Styles/FaceService.css";
 
 const FaceService = () => {
@@ -20,50 +21,48 @@ const FaceService = () => {
 In addition, facial massage can stimulate the production of collagen and elastin, proteins that are important for maintaining skin firmness and elasticity.
 
 `}</li>
-            <ul className="eliminates-toxins-makes-skin">
+            <ul class="col-md-3" className="eliminates-toxins-makes-skin">
               <li className="one-of-the">Eliminates Toxins</li>
-              <li className="makes-skin-more">Makes skin more supple</li>
-              <li className="makes-skin-more">Reduces Acne</li>
-              <li>Skin Tightening</li>
+              <li className="one-of-the">Makes skin more supple</li>
+              <li className="one-of-the">Reduces Acne</li>
+              <li className="one-of-the">Skin Tightening</li>
             </ul>
           </span>
         </div>
         <div className="group-container">
           <div className="massaging-the-face-30-min-5-wrapper">
             <div className="massaging-the-face-container">
-              <p className="one-of-the">
+              <p className="one-of-the1">
                 <span>
                   <b className="massaging-the-face1">
                     Massaging The Face - 30 min
                   </b>
                 </span>
               </p>
-              <p className="one-of-the">
-                <span>
+              <p className="one-of-the1">
                   <span className="span2">
-                    <span>$50</span>
+                    <span>Rp 1.1250.000</span>
                   </span>
-                </span>
               </p>
               <p className="blank-line1">
                 <span className="massaging-the-face1">
-                  <span className="span2">
-                    <span>&nbsp;</span>
-                  </span>
                 </span>
               </p>
-              <p className="one-of-the">
+              <p className="one-of-the1">
                 <span className="massaging-the-face1">
                   <span>Olive oil, facial roller, cooling mask</span>
                 </span>
               </p>
             </div>
           </div>
+          <Link to ="/reserved">
           <img
             className="desain-tanpa-judul21"
             alt=""
             src="/desain-tanpa-judul21@2x.png"
-          />
+          />            
+          </Link>
+
         </div>
       </div>
       <div className="service-face1">
@@ -84,9 +83,9 @@ In addition, facial massage can stimulate the production of collagen and elastin
             </p>
             <p className="one-of-the">&nbsp;</p>
             <ul className="eliminates-toxins-makes-skin">
-              <li className="makes-skin-more">Replaces lost collagen</li>
-              <li className="makes-skin-more">Reduces scars</li>
-              <li>Plump lips</li>
+              <li className="one-of-the">Replaces lost collagen</li>
+              <li className="one-of-the">Reduces scars</li>
+              <li className="one-of-the">Plump lips</li>
             </ul>
           </span>
         </div>
@@ -99,9 +98,10 @@ In addition, facial massage can stimulate the production of collagen and elastin
                     <span className="collagen-injections2">{`Collagen Injections            `}</span>
                   </span>
                 </p>
+                <span className="span2">&nbsp;</span>
                 <p className="one-of-the">
                   <span className="collagen-injections1">
-                    <span>$800</span>
+                    <span>Rp 2.500.000</span>
                   </span>
                 </p>
                 <p className="one-of-the">
@@ -117,33 +117,37 @@ In addition, facial massage can stimulate the production of collagen and elastin
               </span>
             </div>
           </div>
+          <Link to ="/reserved">
           <img
-            className="desain-tanpa-judul21"
+            className="desain-tanpa-judul212"
             alt=""
             src="/desain-tanpa-judul20@2x.png"
-          />
+          />  
+          </Link>
+
         </div>
       </div>
       <div className="service-face2">
-        <div className="collagen-injections-are-container">
+        <div className="collagen-injections-are-container1">
           <span className="our-service-txt-container1">
             <li className="one-of-the">{`Facial masks not only provide results that improve the overall appearance of your skin. They can also be therapeutic. If they contain aromatic essential oils such as mint and rosemary, facial masks can lift your spirits by stimulating your senses.
 
 `}</li>
+
+          <p className="one-of-the">&nbsp;</p>
             <ul className="eliminates-toxins-makes-skin">
               <li className="one-of-the">Provides nutrition to the skin</li>
-              <li className="makes-skin-more">Clean facial skin thoroughly</li>
-              <li className="makes-skin-more">Moisturizes facial skin</li>
-              <li className="makes-skin-more">{`Skin Exfoliation
-Tighten Facial Skin`}</li>
-              <li className="makes-skin-more">Brighten Facial Skin</li>
-              <li>Relieves Skin Problems</li>
+              <li className="one-of-the">Clean facial skin thoroughly</li>
+              <li className="one-of-the">Moisturizes facial skin</li>
+              <li className="one-of-the">Skin Exfoliation Tighten Facial Skin</li>
+              <li className="one-of-the">Brighten Facial Skin</li>
+              <li className="one-of-the">Relieves Skin Problems</li>
             </ul>
           </span>
         </div>
         <div className="group-parent2">
           <div className="facial-mask-50-650-hydrati-wrapper">
-            <div className="collagen-injections-800-container">
+            <div className="collagen-injections-800-container1">
               <span className="our-service-txt-container1">
                 <p className="one-of-the">
                   <span className="collagen-injections2">
@@ -153,9 +157,10 @@ Tighten Facial Skin`}</li>
                     <span className="collagen-injections2">{`             `}</span>
                   </span>
                 </p>
+                <span className="span9">&nbsp;</span>
                 <p className="one-of-the">
                   <span className="collagen-injections1">
-                    <span>$50 - $650</span>
+                    <span>Rp 750.000</span>
                   </span>
                 </p>
                 <p className="one-of-the">
@@ -174,27 +179,34 @@ Tighten Facial Skin`}</li>
               </span>
             </div>
           </div>
+          <Link to ="/reserved">
           <img
-            className="desain-tanpa-judul21"
+            className="desain-tanpa-judul213 "
             alt=""
             src="/desain-tanpa-judul19@2x.png"
-          />
+          />            
+          </Link>
+
         </div>
       </div>
-      <div className="footer1">
-        <div className="copyright-2024-1">Copyright 2024 - Webbers</div>
-        <div className="group-parent3">
-          <div className="kembang-ayu-group">
-            <b className="kembang-ayu2">Kembang Ayu</b>
-            <div className="jl-marunda-makmur-container1">
-              <p className="one-of-the">
+      <div className="footer4">
+        <div className="copyright-2024-4">Copyright 2024 - Webbers</div>
+        <div className="group-parent10">
+          <div className="kembang-ayu-parent2">
+            <b className="kembang-ayu10">Kembang Ayu</b>
+            <div className="jl-marunda-makmur-container4">
+              <p className="spa-is-a">
                 Jl. Marunda Makmur, RT.1/RW.1, Marunda, Kec. Cilincing, Jkt
                 Utara, Daerah Khusus Ibukota Jakarta 14150
               </p>
-              <p className="one-of-the">&nbsp;</p>
-              <ul className="telepon-888-555-1234-instagr1">
-                <li className="makes-skin-more">telepon: +888-555-1234</li>
-                <li className="makes-skin-more">instagram: kembangayu.id</li>
+              <p className="spa-is-a">&nbsp;</p>
+              <ul className="telepon-888-555-1234-instagr5">
+                <li className="reduces-dandruff-problems">
+                  telepon: +888-555-1234
+                </li>
+                <li className="reduces-dandruff-problems">
+                  instagram: kembangayu.id
+                </li>
                 <li>email: kembangayu@gmail.com</li>
               </ul>
             </div>

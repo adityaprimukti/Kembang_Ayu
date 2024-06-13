@@ -317,6 +317,19 @@
   max-height: 100%;
   object-fit: cover;
 }
+.image-5-icon1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
 .image-5,
 .image-51 {
   position: absolute;
@@ -328,6 +341,36 @@
 .image-51 {
   left: 661px;
 }
+
+.popup1 {
+  position: absolute;
+  top: 70px; /* Adjust according to your preference */
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 10;
+  text-decoration: none;
+  border-radius: 15px;
+  width: 300px; /* Adjust width as needed */
+height: 100px; /* Adjust height as needed */
+  
+}
+.text1{
+  position: absolute;
+  color: black;
+  margin-left: 75px;
+  margin-bottom: 20px;
+  top: 40px;
+  
+}
+
+.garisbawah{
+  text-decoration: none;
+}
+
 .our-service1 {
   position: absolute;
   top: 129px;
@@ -475,6 +518,11 @@
 .what-our {
   margin: 0;
 }
+
+.what-our1 {
+  margin: 0;
+}
+
 .what-our-customer-container {
   position: absolute;
   top: 0;
@@ -723,4 +771,587 @@
   font-size: var(--font-size-16xl);
   color: var(--color-8);
   font-family: var(--font-cormorant-garamond);
+}
+
+.menu3,
+.menu4,
+.menu5{
+margin: 0;
+}
+
+/* Base styles for navbar */
+.navbar {
+background-color: #333;
+color: white;
+padding: 10px;
+position: fixed;
+width: 100%;
+top: 0;
+z-index: 1000;
+}
+
+.frame-parent {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.frame-group {
+display: flex;
+gap: 60px;
+}
+
+.kembang-ayu-wrapper {
+cursor: pointer;
+}
+/* General styling for the icons */
+.user-icon {
+  position: relative;
+  top: 14px;
+  right: 100px;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.dropdown-icon {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+/* Dropdown menu styling */
+.nav-link {
+  position: relative;
+  display: inline-block;
+  top: -10px;
+  left: 100px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 4px;
+  left: -8px;
+  background: linear-gradient(
+    145.92deg,
+    #fff,
+    #caa180 52.17%,
+    #a98567 64.5%,
+    #472e19
+  );
+  border: 1px solid rgb(255, 250, 250);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  border-radius: 4px;
+  width: 150px;
+}
+
+.dropdown ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown li {
+  border-bottom: 1px solid #ddd;
+}
+
+.dropdown li:last-child {
+  border-bottom: none;
+}
+
+.dropdown1 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.dropdown1:hover {
+  background-color: #ffffff;
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+
+.frame-group {
+  display: none; /* Hide the menu items by default */
+  flex-direction: row;
+  background: linear-gradient(
+    163.27deg,
+    #f1ebe6,
+    #cab5a3 50%,
+    #a38062 75%,
+    #70533a 87.5%,
+    #3c2511
+  );
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 100%;
+  padding: 10px;
+  height: 40px;
+}
+.home1,
+.About,
+.ContactUs,
+.service{
+  font-size: 20px;
+} 
+
+.frame-group.open {
+  display: flex; /* Show menu items when open */
+}
+
+.navbar-toggle {
+  display: block; /* Show the hamburger icon on smaller screens */
+}
+
+.navbar{
+  height:60px;
+}
+
+
+.kembang-ayu{
+  font-size: 30px;
+}
+
+.close-icon {
+  position: absolute;
+  top: -18px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.close-icon span {
+  font-size: 64px;
+  color: white;
+}
+
+.your{
+  position: absolute;
+  font-size: 110px;
+  left: 10px;
+  top: 200px;
+}
+.natural-beauty{
+  font-size: 50px;
+  width: 20%;
+  position: absolute;
+  left: 40px;
+  top: 320px;
+}
+.natural-beauty-is{
+  position: absolute;
+  left: 0;
+  font-size: 20px;
+  top: 420px;
+  width: 15%;
+  left: 40px;
+}
+
+
+.vector-parent{
+  position: absolute;
+  left: 80px;
+  top: 560px;
+}
+.instance-child{
+  width: 160px;
+}
+
+.send{
+  font-size: 20px;
+  left: -45px;
+  top: -3px;
+}
+
+.home-item{
+  position: absolute;
+  left: 350px;
+  width: 490px;
+  height: 500px;
+}
+.home-inner{
+  position: absolute;
+  left: 415px;
+  width: 350px;
+  height: 450px;
+  top: 220px;
+}
+
+.home-child{
+  position: absolute;
+  width: 770px;
+  height: 119%;
+
+}
+.home{
+  height: 669px;
+}
+
+
+
+.about-us{
+  position: absolute;
+  top: 670px;
+  left: -5px;
+}
+
+.group-icon{
+  position: absolute;
+  left: 180px;
+  top: -180px;
+  width: 180px;
+}
+
+.mask-group-icon{
+  position: absolute;
+  width: 195px;
+  top: -190px;
+  left: 163px;
+}
+.about-us1{
+  position: absolute;
+  left: 379px;
+  font-size: 60px;
+  top: 170px;
+}
+
+.since-2004-we{
+  position: absolute;
+  left: 0;
+  font-size: 25px;
+  top: 400px;
+  width: 30%;
+  left: 95px;
+}
+
+.vector-group{
+  position:absolute;
+  left: 300px;
+  top: 82%;
+  width: 160px;
+
+}
+.instance-child2{
+  width: 160px;
+
+}
+.send{
+  left: -22px;
+  width: 200px;
+}
+
+
+
+.our-service{
+  top: 1620px;
+  position: relative;
+}
+.our-service-wrapper{
+position: absolute;
+left: 220px;
+font-size: 60px;
+}
+
+
+.our-service-parent{
+  position: relative;
+  left: 15px;
+}
+
+.our-service-child{
+  width: 59%;
+}
+.overall-care-includes{
+  position :absolute;
+  font-size: 20px;
+  top: 230px;
+  left: 90px;
+}
+
+.image-5-icon{
+  width: 250px;
+  height: 200px;
+  left: 210px;
+  border-radius: 25px;
+}
+
+.image-5-icon1{
+  position:absolute;
+  width: 250px;
+  height: 200px;
+ left: -420px;
+  border-radius: 25px;
+  top: 300px;
+  
+}
+
+.this-will-maximize{
+  position: absolute;
+  left: 0;
+  top: 550px;
+  font-size: 20px;
+  left: 90px;
+
+}
+
+
+.customer-say{
+  top: 2550px;
+}
+
+.what-our-customer-say-parent{
+  position: relative;
+  
+}
+
+.what-our{
+position: absolute;
+font-size: 50px;
+left: -90px;
+}
+
+.what-our1{
+position: absolute;
+font-size: 50px;
+left: 150px;
+top: -0px;
+}
+
+.more-than-10000{
+position: absolute;
+left: -60px;
+font-size: 25px;
+width: 30%;
+}
+.vector-container{
+left: -20px;
+}
+
+.instance-child-assesment{
+width: 50%;
+position: absolute;
+left: -30px;
+}
+.send2{
+font-size: 18px;
+left: -80px;
+top: -20px;
+}
+
+.desain-tanpa-judul22-parent{
+position: absolute;
+left: 390px;
+width: 18%;
+height: 40%;
+top: 380px;
+
+}
+
+.the-product-is{
+font-size: 15px;
+width: 80%;
+left: 20px;
+}
+
+.desain-tanpa-judul22{
+border-radius: 10px;
+}
+
+
+.footer{
+top: 3550px;
+height: 16%;
+}
+
+.kembang-ayu1{
+font-size: 50px;
+left: -70px;
+top: -90px;
+}
+.jalan1{
+font-size: 12px;
+width: 50%;
+left: -130px;
+position: absolute;
+top: -180px;
+}
+
+.telepon-888-555-1234-instagr{
+position: absolute;
+font-size: 12px;
+left: -120px;
+}
+
+.about-service-contact-us-our-c-parent{
+position: absolute;
+left: 0;
+font-size: 15px;
+left: 180px;
+top: 10px;
+}
+
+.menu3{
+font-size: 14px;
+margin-bottom: -50px;
+}
+
+.spa-treatment-hair-treatment-n-parent{
+
+position: absolute;
+left: 0;
+font-size: 15px;
+left: 300px;
+top: 10px;
+}
+.menu4{
+font-size: 13px;
+}
+
+.about-us2{
+font-size: 20px;
+}
+
+
+.green-house-boutique-indonesia-parent{
+position: absolute;
+left: 0;
+font-size: 15px;
+left: 450px;
+top: 15px;
+}
+
+.menu5{
+font-size: 13px;
+}
+
+.copyright-2024-{
+position: absolute;
+left:290px;
+font-size: 15px;
+top: 600px;
+}
+
+.home-sesudah-login {
+width: 100%;
+position: relative;
+height: 4200px;
+
+}
+
+.about-usour{
+font-size: 60px;
+}
+
+
+}
+
+@media (max-width: 360px){
+  .popup1{
+    position: absolute;
+  left: 145px;
+  width: 25%;
+  height: 75px;
+  }
+
+  .text1{
+    position: absolute;
+  font-size: 15px;
+  left: -30px;
+  }
+
+  .home2,
+  .About,
+  .ContactUs,
+  .service{
+    font-size: 12px;
+    margin-left: -100px;
+    left: 60px;
+    top: -10px;
+  } 
+  .home1{
+    left: 80px;
+  }
+  .service{
+  left: 50px;
+  }
+
+  .About{
+    left: 65px;
+  }
+
+  /* General styling for the icons */
+.user-icon {
+  position: relative;
+  top: -1px;
+  right: 140px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.dropdown-icon {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+/* Dropdown menu styling */
+.nav-link {
+  position: relative;
+  display: inline-block;
+  top: -10px;
+  left: 100px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 4px;
+  left: -8px;
+  background: linear-gradient(
+    145.92deg,
+    #fff,
+    #caa180 52.17%,
+    #a98567 64.5%,
+    #472e19
+  );
+  border: 1px solid rgb(255, 250, 250);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  border-radius: 4px;
+  width: 150px;
+}
+
+.dropdown ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown li {
+  border-bottom: 1px solid #ddd;
+}
+
+.dropdown li:last-child {
+  border-bottom: none;
+}
+
+.dropdown1 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.dropdown1:hover {
+  background-color: #ffffff;
+}
+
 }

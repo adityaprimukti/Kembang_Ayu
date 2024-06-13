@@ -31,6 +31,11 @@
 }
 .green-house-boutique-hotel {
   margin: 0;
+  
+}
+.Indonesia-Kempiski-Hotel{
+  margin: 0;
+  margin-right: 20px;
 }
 .introducing-our-state-of-the-a-parent {
   position: absolute;
@@ -42,7 +47,7 @@
   left: 0;
 }
 .ourcenter1-inner {
-  position: absolute;
+  position: relative;
   height: 46.78%;
   width: 44.17%;
   top: 26.66%;
@@ -85,7 +90,7 @@
   height: 388px;
 }
 .ourcenter1 {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   background-color: var(--color-6);
@@ -115,7 +120,7 @@
   line-height: 150%;
   text-transform: capitalize;
   background: linear-gradient(139.41deg, #c9a180, #3b2410);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   display: flex;
   align-items: center;
@@ -123,7 +128,7 @@
   height: 111.6px;
 }
 .introducing-our-state-of-the-a-group {
-  position: absolute;
+  position: relative;
   width: 44.27%;
   top: calc(50% - 239px);
   right: 44.11%;
@@ -147,8 +152,8 @@
   object-fit: cover;
 }
 .ourcenter2 {
-  position: absolute;
-  top: 1024px;
+  position: relative;
+  top: 100px;
   left: 0;
   background-color: var(--color-6);
   width: 1920px;
@@ -156,7 +161,7 @@
   overflow: hidden;
 }
 .ayyarta-hotel-malioboro-container {
-  position: absolute;
+  position: relative;
   width: 96.34%;
   top: 0;
   left: 0;
@@ -164,7 +169,7 @@
   line-height: 150%;
   text-transform: capitalize;
   background: linear-gradient(139.41deg, #c9a180, #3b2410);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   display: flex;
   align-items: center;
@@ -196,8 +201,8 @@
   object-fit: cover;
 }
 .ourcenter3 {
-  position: absolute;
-  top: 2048px;
+  position: relative;
+  top: 1048px;
   left: 0;
   background-color: var(--color-6);
   width: 1920px;
@@ -223,7 +228,7 @@
 .ourcenter4,
 .ourcenter5 {
   position: absolute;
-  top: 3072px;
+  top: 1072px;
   left: 0;
   background-color: var(--color-6);
   width: 1920px;
@@ -231,7 +236,7 @@
   overflow: hidden;
 }
 .ourcenter5 {
-  top: 4096px;
+  top: 2096px;
 }
 .ourcenter5-item {
   position: absolute;
@@ -245,7 +250,7 @@
 .ourcenter51,
 .ourcenter6 {
   position: absolute;
-  top: 6144px;
+  top: 5144px;
   left: 0;
   background-color: var(--color-6);
   width: 1920px;
@@ -253,7 +258,7 @@
   overflow: hidden;
 }
 .ourcenter6 {
-  top: 5120px;
+  top: 4100px;
 }
 .copyright-2024-2 {
   position: absolute;
@@ -316,6 +321,13 @@
   text-align: justify;
   display: inline-block;
 }
+
+.about-service-contact-container2 > * {
+  margin: 5px 0; /* Menambahkan margin untuk setiap elemen */
+  padding: 5px 0; /* Menambahkan padding untuk setiap elemen */
+  position: relative; /* Memastikan posisi relatif untuk menghindari konflik dengan posisi absolut */
+}
+
 .our-service24 {
   position: absolute;
   height: 100%;
@@ -420,7 +432,7 @@
 }
 .footer2 {
   position: absolute;
-  top: 7168px;
+  top: 6168px;
   left: 0;
   background: linear-gradient(
     180deg,
@@ -440,10 +452,237 @@
   width: 100%;
   position: relative;
   background-color: var(--color-6);
-  height: 8192px;
+  height: 7200px;
   overflow: hidden;
   text-align: justify;
   font-size: var(--font-size-16xl);
   color: var(--color-7);
   font-family: var(--font-inter);
+  
 }
+.menu{
+  margin: 0;
+}
+.menu2{
+  margin: 0;
+}
+.menu3{
+  margin: 0;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+  .ourcenter1{
+    position: relative;
+    
+  }
+
+  
+  .our-center2{
+    height: 6560px;
+  }
+  .ourcenter2{
+  
+    top: 0;
+  }
+
+  .ourcenter5{
+    position: relative;
+    
+    top: -1030px;
+    
+  }
+
+  
+  .our-center3{
+    top: 40px;
+   position: absolute;
+   left: 105px;
+   font-size: 40px;
+  }
+
+  .ourcenter1-child{
+    position: absolute;
+    left: 20px;
+    width: 350px;
+    height: 140px;
+  }
+
+  .desain-tanpa-judul26{
+    position: absolute;
+    width: 265px;
+    height: 220px;
+    left: -165px;
+    top: -140px;
+  }
+
+  .ourcenter1-inner{
+    position: relative;
+    left: 20px;
+  }
+
+  .introducing-our-state-of-the-a{
+    font-size: 15px;
+    width: 40%; 
+    top: 400px;
+  }
+  
+ .ayyarta-hotel-malioboro-container{
+  position: absolute;
+  top: 360px;
+ }
+  
+  .green-house-boutique-hotel1{
+    font-size: 20px;
+    margin-bottom: -20px;
+  }
+
+  .ourcenter3-child{
+    position: absolute;
+    left: 20px;
+    width: 350px;
+    height: 140px;
+  }
+  
+ .ourcenter3-inner{
+  position: relative;
+    left: 20px;
+ }
+
+ .ourcenter5-item{
+  position: absolute;
+    left: 20px;
+    width: 350px;
+    height: 140px;
+ }
+
+  .component-5-icon{
+    position: absolute;
+    width: 265px;
+    height: 220px;
+    left: 60px;
+    top: 180px;
+  }
+
+  .introducing-our-state-of-the-a-group{
+    position: relative;
+    left: 20px;
+  }
+  .indonesia-kempiski-hotel-container{
+    position: relative;
+    top: 280px;
+  }
+
+  .green-house-boutique-hotel{
+    font-size: 20px;
+    margin-bottom: -20px;
+  }
+  .introducing-our-state-of-the-a1{
+    font-size: 15px;
+    width: 40%; 
+    top: 300px;
+  }
+
+  .ourcenter2-child{
+    position: absolute;
+    left: 20px;
+    width: 350px;
+    height: 140px;
+  }
+  .component-4-icon{
+    position: absolute;
+    width: 265px;
+    height: 220px;
+    left: 60px;
+    top: 180px;
+  }
+
+  .kembang-ayu4{
+    position: absolute;
+    font-size: 35px;
+    top: -90px;
+    left: -110px;
+
+  }
+  .jl-marunda-makmur-container2{
+    position: absolute;
+    left: -135px;
+    font-size: 8px;
+    top: -20px;
+  }
+
+  .jalan{
+    font-size: 8px;
+    width: 25%;
+  }
+  .telepon-888-555-1234-instagr2{
+    position: absolute;
+    left: -20px;
+    top: 90px;
+
+  }
+  .about-service-contact-us-our-c-container{
+    position: absolute;
+    font-size: 8px;
+    left: 20px;
+    top: -110px;
+  }
+  .menu{
+    font-size: 8px;
+    margin-bottom: -70px;
+  }
+  .our-service24{
+    position: absolute;
+    top: 60px;
+  }
+
+  .spa-treatment-hair-treatment-n-container{
+    position: absolute;
+    font-size: 8px;
+    left: 80px;
+    top: -80px;
+    
+  }
+  .menu2{
+    margin-bottom: -10px;
+  }
+  .our-service27{
+    position: absolute;
+    top: -28px;
+    font-size: 10px;
+
+  }
+  .green-house-boutique-indonesia-container{
+    position: absolute;
+    font-size: 8px;
+    left: 170px;
+    top: -70px;
+  }
+  .menu3{
+    margin-bottom: -10px;
+   
+  }
+  .our-service30{
+    position: absolute;
+    font-size: 10px;
+    top: 53px;
+  }
+
+  .copyright-2024-2{
+    position: absolute;
+    left: 120px;
+    font-size: 12px;
+    top: 350px;
+  }
+
+  .footer2{
+    position: absolute;
+    width: 390px;
+    height: 400px;
+  }
+
+
+
+}
+

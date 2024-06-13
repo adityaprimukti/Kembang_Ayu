@@ -32,7 +32,7 @@ const Register = () => {
         setTimeout(() => {
           setShowSuccess(false);
           navigate('/Login');
-        }, 5000);
+        }, 2000);
       } else {
         setError('Registration failed');
       }
@@ -99,7 +99,7 @@ const Register = () => {
       </form>
       {showSuccess && (
         <div className="success-popup">
-          <p>Registrasi Berhasil 👋😉</p>
+          <p>Registrasi Success 👋😉</p>
         </div>
       )}
       <div className="register2">Register</div>
