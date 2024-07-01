@@ -85,7 +85,7 @@ const PaymentTest = () => {
   return (
     <div className="back-container">
       <div className="payment-container">
-        <h1 className="payment-title">Kembang Ayu Payment</h1>
+        <h1 className="payment-title">Midtrans Payment Test</h1>
         <div className="payment-details">
           <p>Service: {selectedService}</p>
           <p>Branch: {selectedBranch}</p>
