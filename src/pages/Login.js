@@ -21,13 +21,15 @@ const Login = () => {
         username,
         password,
       });
-      if (response.data === 'Login successful') {
+      if (response.data.message === 'Login successful') {
         setShowSuccess(true);
         setError(""); // Clear any previous errors
+        localStorage.setItem('token', response.data.token); // Store token in localStorage
+        localStorage.setItem('user', JSON.stringify(response.data.user)); // Store user data in localStorage
         setTimeout(() => {
           setShowSuccess(false);
-          navigate('/AfterHome'); // Redirect to home page or any other page after successful login
-        }, 3000);
+          navigate('/afterhome'); // Redirect to home page or any other page after successful login
+        }, 1000); // Adjusted timeout for consistency
       } else {
         setError('Invalid credentials');
       }
@@ -64,13 +66,13 @@ const Login = () => {
           />
         </div>
         <div className="login-wrapper">
-            <button type="submit" className="login1">Login</button>
+          <button type="submit" className="login1">Login</button>
         </div>
         {error && <div className="error-message">{error}</div>}
       </form>
       {showSuccess && (
         <div className="success-popup">
-          <p>Login Berhasil</p>
+          <p>Login Success</p>
         </div>
       )}
       <div className="login2">Login</div>

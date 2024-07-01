@@ -1,23 +1,48 @@
-import React, { useRef } from "react";
-import "../Styles/AfterHome.css";
-import { Link } from "react-router-dom";
+import React, { useRef, useState, useEffect } from "react";
+import '../Styles/AfterHome.css';
+import { Link, useNavigate } from "react-router-dom";
+import { FaUserCircle, FaSignOutAlt } from "react-icons/fa";
 
 const AfterHome = () => {
+  const [hoveredImage, setHoveredImage] = useState(null);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
   const aboutUsRef = useRef(null);
   const ServiceRef = useRef(null);
-  
+  const navigate = useNavigate();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  const toggleDropdown = () => {
+    setDropdownOpen(!dropdownOpen);
+  };
+
+  // Close mobile menu when clicked outside the navbar
+  const handleClickOutside = (event) => {
+    if (!event.target.closest(".nav-link") && dropdownOpen) {
+      setDropdownOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("click", handleClickOutside);
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, [dropdownOpen]);
 
   const scrollToAboutUs = () => {
     if (aboutUsRef.current) {
-      aboutUsRef.current.scrollIntoView({ behavior: 'smooth' });
+      aboutUsRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
   const scrollToService = () => {
     if (ServiceRef.current) {
-      ServiceRef.current.scrollIntoView({ behavior: 'smooth' });
+      ServiceRef.current.scrollIntoView({ behavior: "smooth" });
     }
   };
-
 
   return (
     <div className="home-sesudah-login">
@@ -34,28 +59,63 @@ const AfterHome = () => {
             <div className="kembang-ayu-wrapper">
               <b className="kembang-ayu">Kembang Ayu</b>
             </div>
-            <div className="frame-group">
+            <div className={`frame-group ${isMobileMenuOpen ? "open" : ""}`}>
               <div className="kembang-ayu-wrapper">
                 <div className="home1">Home</div>
               </div>
-              <div className="kembang-ayu-wrapper"onClick={scrollToAboutUs}>
+              <div className="kembang-ayu-wrapper" onClick={scrollToAboutUs}>
                 <div className="About">About</div>
               </div>
-              <div className="kembang-ayu-wrapper"onClick={scrollToService}>
+              <div className="kembang-ayu-wrapper" onClick={scrollToService}>
                 <div className="service">Service</div>
               </div>
               <div className="kembang-ayu-wrapper">
-              <Link to="/kontakpage" className="no-underline">            
-                <div className="ContactUs">Contact Us</div>
+                <Link to="/kontakpage" className="no-underline">
+                  <div className="ContactUs">Contact Us</div>
                 </Link>
               </div>
+              <div className="nav-link" onClick={toggleDropdown}>
+                <FaUserCircle className='user-icon' /> {/* User Icon */}
+                {dropdownOpen && (
+                  <div className="dropdown">
+                    <ul>
+                      <li>
+                        <Link className="dropdown1" to="/userprofile">
+                          <FaUserCircle className="dropdown-icon" />
+                          Profile
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown1" to="/">
+                          <FaSignOutAlt className="dropdown-icon" />
+                          Logout
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                )}
+              </div>
             </div>
+            <div
+              className="navbar-toggle"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            >
+              <span className="navbar-toggle-icon">&#9776;</span>
+            </div>
+            {isMobileMenuOpen && (
+              <div
+                className="close-icon"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                <span>&times;</span>
+              </div>
+            )}
           </div>
         </div>
         <div className="vector-parent">
           <img className="instance-child" alt="" src="/rectangle-14.svg" />
-          <Link to= "/reserved" >
-          <b className="send">Reserve Now</b>
+          <Link to="/reserved">
+            <b className="send">Reserve Now</b>
           </Link>
         </div>
         <div className="natural-beauty">natural beauty</div>
@@ -65,7 +125,7 @@ const AfterHome = () => {
         <img className="group-icon" alt="" src="/group.svg" />
         <img className="mask-group-icon" alt="" src="/mask-group@2x.png" />
         <div className="about-us1">
-          <div className="about-us2">
+          <div className="about-us10">
             <span className="about-us-txt-container">
               <b>{`About `}</b>
               <b className="us">{`Us `}</b>
@@ -82,9 +142,9 @@ const AfterHome = () => {
           friendly. Kembang ayu is now spread across big cities in Indonesia.
         </div>
         <div className="vector-group">
-        <Link to="/Frame">
-          <img className="instance-child" alt="" src="/rectangle-14.svg" />
-          <b className="send">Find Our Center</b>
+          <Link to="/Frame">
+            <img className="instance-child2" alt="" src="/rectangle-14.svg" />
+            <b className="send">Find Our Center</b>
           </Link>
         </div>
       </div>
@@ -100,20 +160,46 @@ const AfterHome = () => {
               This will maximize your facial care to make it look younger and
               more well-groomed.
             </div>
-            <div className="image-5">
-              <Link to ="/allservice">
-              <img className="image-5-icon" alt="" src="/image-5@2x.png" />
-              </Link>
-            </div>
-            <div className="image-51">
-            <Link to ="/faceservice">
-              <img className="image-5-icon" alt="" src="/image-51@2x.png" />
-              </Link>
+            <div className="image-container">
+              <div className="image-5"
+              onMouseEnter={() => setHoveredImage("image-5")}
+              onMouseLeave={() => setHoveredImage(null)}>
+                <img
+                  className="image-5-icon"
+                  alt=""
+                  src="/image-5@2x.png"
+                  
+                />
+                {hoveredImage === "image-5" && (
+                  <div className="popup1">
+                    <Link to="/allservice"className="garisbawah">
+                    <div className="text1">All Service</div>
+                    </Link>
+                  </div>
+                )}
+              </div>
+              <div className="image-51"
+              onMouseEnter={() => setHoveredImage("image-51")}
+              onMouseLeave={() => setHoveredImage(null)}>
+                <img
+                  className="image-5-icon1"
+                  alt=""
+                  src="/image-51@2x.png"
+                  
+                />
+                {hoveredImage === "image-51" && (
+                  <div className="popup1">
+                    <Link to="/faceservice"className="garisbawah">
+                    <div className="text1">Face Service</div>
+                    </Link>
+                  </div>
+                )}
+              </div>
             </div>
           </div>
           <div className="our-service-wrapper">
             <div className="our-service2">
-              <div className="about-us2">
+              <div className="about-usour">
                 <span className="about-us-txt-container">
                   <b>
                     <span>Our</span>
@@ -153,7 +239,7 @@ const AfterHome = () => {
               <b>{`What `}</b>
               <b className="us">{`Our `}</b>
             </p>
-            <p className="what-our">
+            <p className="what-our1">
               <b>Customer Say?</b>
             </p>
           </div>
@@ -162,10 +248,14 @@ const AfterHome = () => {
             time for you to share your experience
           </div>
           <div className="vector-container">
-            <img className="instance-child" alt="" src="/rectangle-141.svg" />
-            <Link to ="/testimoni">
-            <b className="send2">send Your Assessment</b>
-          </Link>
+            <img
+              className="instance-child-assesment"
+              alt=""
+              src="/rectangle-141.svg"
+            />
+            <Link to="/testimoni">
+              <b className="send2">send Your Assessment</b>
+            </Link>
           </div>
         </div>
       </div>
@@ -175,7 +265,7 @@ const AfterHome = () => {
           <div className="kembang-ayu-parent">
             <b className="kembang-ayu1">Kembang Ayu</b>
             <div className="jl-marunda-makmur-container">
-              <p className="what-our">
+              <p className="jalan1">
                 Jl. Marunda Makmur, RT.1/RW.1, Marunda, Kec. Cilincing, Jkt
                 Utara, Daerah Khusus Ibukota Jakarta 14150
               </p>
@@ -193,10 +283,10 @@ const AfterHome = () => {
           </div>
           <div className="about-service-contact-us-our-c-parent">
             <div className="about-service-contact-container">
-              <p className="what-our">About</p>
-              <p className="what-our">Service</p>
-              <p className="what-our">Contact Us</p>
-              <p className="what-our">Our Center</p>
+              <p className="menu4">About</p>
+              <p className="menu4">Service</p>
+              <p className="menu4">Contact Us</p>
+              <p className="menu4">Our Center</p>
             </div>
             <div className="our-service-container">
               <div className="our-service-container">
@@ -211,32 +301,32 @@ const AfterHome = () => {
           </div>
           <div className="spa-treatment-hair-treatment-n-parent">
             <div className="spa-treatment-hair-container">
-              <p className="what-our">Spa Treatment</p>
-              <p className="what-our">Hair Treatment</p>
-              <p className="what-our">Nails</p>
-              <p className="what-our">Massaging the Face</p>
-              <p className="what-our">Collagen Injection</p>
-              <p className="what-our">Facial Mask</p>
+              <p className="menu5">Spa Treatment</p>
+              <p className="menu5">Hair Treatment</p>
+              <p className="menu5">Nails</p>
+              <p className="menu5">Massaging the Face</p>
+              <p className="menu5">Collagen Injection</p>
+              <p className="menu5">Facial Mask</p>
             </div>
             <div className="group-div">
               <div className="our-service8">
-                <b className="about-us2">Service</b>
+                <b className="about-us2-service">Service</b>
               </div>
             </div>
           </div>
           <div className="green-house-boutique-indonesia-parent">
             <div className="green-house-boutique-container">
-              <p className="what-our">Green House Boutique</p>
-              <p className="what-our">Indonesia Kempiski</p>
-              <p className="what-our">Ayyartta Hotel</p>
-              <p className="what-our">Sambi Resort</p>
-              <p className="what-our">JW Marriot</p>
-              <p className="what-our">Katamaran</p>
-              <p className="what-our">Grand Altuz</p>
+              <p className="menu6">Green House Boutique</p>
+              <p className="menu6">Indonesia Kempiski</p>
+              <p className="menu6">Ayyartta Hotel</p>
+              <p className="menu6">Sambi Resort</p>
+              <p className="menu6">JW Marriot</p>
+              <p className="menu6">Katamaran</p>
+              <p className="menu6">Grand Altuz</p>
             </div>
             <div className="our-service-wrapper1">
               <div className="our-service10">
-                <b className="about-us2">Our Center</b>
+                <b className="about-us2-center">Our Center</b>
               </div>
             </div>
           </div>

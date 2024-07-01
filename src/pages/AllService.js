@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../Styles/AllService.css";
 
 const AllService = () => {
@@ -43,15 +44,15 @@ const AllService = () => {
         <div className="group-parent7">
           <div className="spa-treatment-50-min-50-ste-wrapper">
             <div className="spa-treatment-container">
-              <p className="spa-is-a">
+              <p className="spa-is-a-price">
                 <span className="spa-treatment-50-min1">
                   <b>SPA Treatment - 50 min</b>
                   <span className="span9">{`               `}</span>
                 </span>
               </p>
-              <p className="spa-is-a">
+              <p className="spa-is-a-price">
                 <span className="span9">
-                  <span>$50</span>
+                  <span>Rp 1.125.000</span>
                 </span>
               </p>
               <p className="spa-is-a">
@@ -70,11 +71,13 @@ const AllService = () => {
               </p>
             </div>
           </div>
+          <Link to ="/reserved">
           <img
-            className="desain-tanpa-judul18-2"
+            className="responsive-img" 
             alt=""
             src="/desain-tanpa-judul18-2@2x.png"
-          />
+          />            
+          </Link>
         </div>
       </div>
       <div className="service-all2">
@@ -123,7 +126,7 @@ const AllService = () => {
                 </p>
                 <p className="spa-is-a">
                   <span className="span9">
-                    <span>$50 - $650</span>
+                    <span>Rp 400.000</span>
                   </span>
                 </p>
                 <p className="spa-is-a">
@@ -142,11 +145,14 @@ const AllService = () => {
               </span>
             </div>
           </div>
+          <Link to ="/reserved">
           <img
-            className="desain-tanpa-judul18-2"
+            className="responsive-img1"
             alt=""
             src="/desain-tanpa-judul15-2@2x.png"
-          />
+          />            
+          </Link>
+
         </div>
       </div>
       <div className="service-all3">
@@ -179,7 +185,7 @@ const AllService = () => {
         </div>
         <div className="group-parent9">
           <div className="nails-150-450-choose-the-d-wrapper">
-            <div className="hair-treatment-50-container">
+            <div className="hair-treatment-50-container1">
               <span className="our-service-txt-container3">
                 <p className="spa-is-a">
                   <span className="blank-line24">
@@ -191,7 +197,7 @@ const AllService = () => {
                 </p>
                 <p className="spa-is-a">
                   <span className="span9">
-                    <span>$150 - $450</span>
+                    <span>Rp 1.500.000</span>
                   </span>
                 </p>
                 <p className="spa-is-a">
@@ -209,11 +215,14 @@ const AllService = () => {
               </span>
             </div>
           </div>
+          <Link to ="/reserved">
           <img
-            className="desain-tanpa-judul18-2"
+            className="responsive-img2"
             alt=""
             src="/desain-tanpa-judul16@2x.png"
-          />
+          />            
+          </Link>
+
         </div>
       </div>
       <div className="footer4">
@@ -238,52 +247,52 @@ const AllService = () => {
               </ul>
             </div>
           </div>
-          <div className="about-service-contact-us-our-c-parent2">
-            <div className="about-service-contact-container4">
-              <p className="spa-is-a">About</p>
-              <p className="spa-is-a">Service</p>
-              <p className="spa-is-a">Contact Us</p>
-              <p className="spa-is-a">Our Center</p>
+          <div className="about-service-contact-us-our-c-group">
+            <div className="about-service-contact-container1">
+              <p className="one-of-the">About</p>
+              <p className="one-of-the">Service</p>
+              <p className="one-of-the">Contact Us</p>
+              <p className="one-of-the">Our Center</p>
             </div>
-            <div className="our-service-wrapper16">
-              <div className="our-service-wrapper16">
-                <b className="our-service40">Company</b>
+            <div className="our-service-wrapper2">
+              <div className="our-service-wrapper2">
+                <b className="our-service14">Company</b>
               </div>
             </div>
-            <div className="our-service-wrapper16">
-              <div className="our-service-wrapper16">
-                <b className="our-service40">Company</b>
-              </div>
-            </div>
-          </div>
-          <div className="spa-treatment-hair-treatment-n-parent2">
-            <div className="spa-treatment-hair-container4">
-              <p className="spa-is-a">Spa Treatment</p>
-              <p className="spa-is-a">Hair Treatment</p>
-              <p className="spa-is-a">Nails</p>
-              <p className="spa-is-a">Massaging the Face</p>
-              <p className="spa-is-a">Collagen Injection</p>
-              <p className="spa-is-a">Facial Mask</p>
-            </div>
-            <div className="our-service-wrapper18">
-              <div className="our-service45">
-                <b className="our-service40">Service</b>
+            <div className="our-service-wrapper2">
+              <div className="our-service-wrapper2">
+                <b className="our-service14">Company</b>
               </div>
             </div>
           </div>
-          <div className="green-house-boutique-indonesia-parent2">
-            <div className="green-house-boutique-container6">
-              <p className="spa-is-a">Green House Boutique</p>
-              <p className="spa-is-a">Indonesia Kempiski</p>
-              <p className="spa-is-a">Ayyartta Hotel</p>
-              <p className="spa-is-a">Sambi Resort</p>
-              <p className="spa-is-a">JW Marriot</p>
-              <p className="spa-is-a">Katamaran</p>
-              <p className="spa-is-a">Grand Altuz</p>
+          <div className="spa-treatment-hair-treatment-n-group">
+            <div className="spa-treatment-hair-container1">
+              <p className="one-of-the">Spa Treatment</p>
+              <p className="one-of-the">Hair Treatment</p>
+              <p className="one-of-the">Nails</p>
+              <p className="one-of-the">Massaging the Face</p>
+              <p className="one-of-the">Collagen Injection</p>
+              <p className="one-of-the">Facial Mask</p>
             </div>
-            <div className="our-service-wrapper19">
-              <div className="our-service47">
-                <b className="our-service40">Our Center</b>
+            <div className="our-service-wrapper4">
+              <div className="our-service17">
+                <b className="our-service14">Service</b>
+              </div>
+            </div>
+          </div>
+          <div className="green-house-boutique-indonesia-group">
+            <div className="green-house-boutique-container1">
+              <p className="one-of-the">Green House Boutique</p>
+              <p className="one-of-the">Indonesia Kempiski</p>
+              <p className="one-of-the">Ayyartta Hotel</p>
+              <p className="one-of-the">Sambi Resort</p>
+              <p className="one-of-the">JW Marriot</p>
+              <p className="one-of-the">Katamaran</p>
+              <p className="one-of-the">Grand Altuz</p>
+            </div>
+            <div className="our-service-wrapper5">
+              <div className="our-service19">
+                <b className="our-service14">Our Center</b>
               </div>
             </div>
           </div>

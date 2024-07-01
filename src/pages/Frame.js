@@ -105,8 +105,8 @@ const Frame = () => {
             </span>
           </div>
         </div>
-        <div className="ourcenter4-child" />
-        <img className="component-6-icon" alt="" src="/component-6@2x.png" />
+        <div className="ourcenter2-child" />
+        <img className="component-4-icon" alt="" src="/component-6@2x.png" />
       </div>
       <div className="ourcenter5">
         <div className="ourcenter3-inner">
@@ -173,7 +173,7 @@ const Frame = () => {
           </div>
         </div>
         <div className="ourcenter2-child" />
-        <img className="component-6-icon" alt="" src="/component-8@2x.png" />
+        <img className="component-4-icon" alt="" src="/component-8@2x.png" />
       </div>
       <div className="footer2">
         <div className="copyright-2024-2">Copyright 2024 - Webbers</div>
@@ -181,7 +181,7 @@ const Frame = () => {
           <div className="kembang-ayu-container">
             <b className="kembang-ayu4">Kembang Ayu</b>
             <div className="jl-marunda-makmur-container2">
-              <p className="green-house-boutique-hotel">
+              <p className="jalan">
                 Jl. Marunda Makmur, RT.1/RW.1, Marunda, Kec. Cilincing, Jkt
                 Utara, Daerah Khusus Ibukota Jakarta 14150
               </p>
@@ -199,10 +199,10 @@ const Frame = () => {
           </div>
           <div className="about-service-contact-us-our-c-container">
             <div className="about-service-contact-container2">
-              <p className="green-house-boutique-hotel">About</p>
-              <p className="green-house-boutique-hotel">Service</p>
-              <p className="green-house-boutique-hotel">Contact Us</p>
-              <p className="green-house-boutique-hotel">Our Center</p>
+              <p className="menu">About</p>
+              <p className="menu">Service</p>
+              <p className="menu">Contact Us</p>
+              <p className="menu">Our Center</p>
             </div>
             <div className="our-service-wrapper7">
               <div className="our-service-wrapper7">
@@ -217,12 +217,12 @@ const Frame = () => {
           </div>
           <div className="spa-treatment-hair-treatment-n-container">
             <div className="spa-treatment-hair-container2">
-              <p className="green-house-boutique-hotel">Spa Treatment</p>
-              <p className="green-house-boutique-hotel">Hair Treatment</p>
-              <p className="green-house-boutique-hotel">Nails</p>
-              <p className="green-house-boutique-hotel">Massaging the Face</p>
-              <p className="green-house-boutique-hotel">Collagen Injection</p>
-              <p className="green-house-boutique-hotel">Facial Mask</p>
+              <p className="menu2">Spa Treatment</p>
+              <p className="menu2">Hair Treatment</p>
+              <p className="menu2">Nails</p>
+              <p className="menu2">Massaging the Face</p>
+              <p className="menu2">Collagen Injection</p>
+              <p className="menu2">Facial Mask</p>
             </div>
             <div className="our-service-wrapper9">
               <div className="our-service27">
@@ -232,17 +232,17 @@ const Frame = () => {
           </div>
           <div className="green-house-boutique-indonesia-container">
             <div className="green-house-boutique-container4">
-              <p className="green-house-boutique-hotel">Green House Boutique</p>
-              <p className="green-house-boutique-hotel">Indonesia Kempiski</p>
-              <p className="green-house-boutique-hotel">Ayyartta Hotel</p>
-              <p className="green-house-boutique-hotel">Sambi Resort</p>
-              <p className="green-house-boutique-hotel">JW Marriot</p>
-              <p className="green-house-boutique-hotel">Katamaran</p>
-              <p className="green-house-boutique-hotel">Grand Altuz</p>
+              <p className="menu3">Green House Boutique</p>
+              <p className="menu3">Indonesia Kempiski</p>
+              <p className="menu3">Ayyartta Hotel</p>
+              <p className="menu3">Sambi Resort</p>
+              <p className="menu3">JW Marriot</p>
+              <p className="menu3">Katamaran</p>
+              <p className="menu3">Grand Altuz</p>
             </div>
             <div className="our-service-wrapper10">
               <div className="our-service29">
-                <b className="our-service24">Our Center</b>
+                <b className="our-service30">Our Center</b>
               </div>
             </div>
           </div>

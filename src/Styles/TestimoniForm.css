@@ -1,138 +1,166 @@
-.group-child9 {
-    position: absolute;
-    top: 150px;
-    left: calc(50% - 310px);
-    border-radius: var(--br-31xl);
-    background: linear-gradient(
-      0deg,
-      #f1ebe6,
-      #cab5a3 50%,
-      #a38062 75%,
-      #70533a 87.5%,
-      #3c2511
-    );
-    width: 620px;
-    height: 480px;
-    border-radius: 30px;
-  }
-  .group-child10,
-  .group-child11 {
-    position: absolute;
-    border-radius: var(--br-3xs);
-    background-color: var(--color-6);
-    width: 450px;
-  }
-  .group-child10 {
-    top: 272px;
-    left: calc(50% - 224px);
-    height: 243px;
-  }
-  .group-child11 {
-    top: 0;
-    left: 0;
-    height: 56px;
-  }
-  .name2 {
-    position: absolute;
-    top: 16.2px;
-    left: 25.1px;
-    line-height: 110%;
-    display: flex;
-    align-items: center;
-    width: 64px;
-    height: 23.7px;
-  }
-  .rectangle-parent10 {
-    position: absolute;
-    top: 197px;
-    left: 84px;
-    width: 450px;
-    height: 56px;
-  }
-  .your-assessment {
-    position: absolute;
-    top: 289px;
-    left: 109px;
-    line-height: 110%;
-    display: block; /* Mengubah zona teks menjadi blok */
-    width: 380px; /* Lebar kotak */
-    height: 180px; /* Tinggi kotak */
-    padding: 10px; /* Padding untuk memberikan ruang di dalam kotak */
-    border: none;
-    outline: none;
+/* TestimoniForm.css */
+
+/* General styles */
+.testimoni-form1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #623001, #96571c, #ffbd80, #96571c);
+  font-family: Arial, sans-serif;
 }
 
-  .your1 {
-    font-family: var(--font-corinthia);
-    color: var(--color-dimgray);
-  }
-  .give-your-assessment-container {
-    position: absolute;
-    top: 50px;
-    left: calc(50% - 224px);
-    font-size: 50px;
-    line-height: 110%;
-    text-transform: capitalize;
-    display: inline-block;
-    width: 500px;
-    height: 85px;
-    color: var(--color-8);
-    font-family: var(--font-cormorant-garamond);
-  }
-  .instance-child5,
-  .send7 {
-    position: absolute;
-    height: 100%;
-    top: 0;
-  }
-  .instance-child5 {
-    width: 100%;
-    right: 0;
-    bottom: 0;
-    left: 20px;
-    max-width: 100%;
-    overflow: hidden;
-    max-height: 100%;
-    border: none;
-    outline: none;
-  }
-  .send7 {
-    width: 74.61%;
-    left: 12.72%;
-    line-height: 110%;
-    text-transform: capitalize;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .vector-parent5 {
-    position: absolute;
-    top: 546px;
-    left: calc(50% - 108px);
-    width: 217px;
-    height: 42px;
-    text-align: center;
-    font-size: var(--font-size-6xl);
-    color: var(--color-6);
-    font-family: var(--font-cormorant-garamond);
-  }
+.rectangle-parent9 {
+  position: relative;
+  right: 10px;
+  width: 1000px;
+  height: 580px;
+  max-width: 500px; /* Batasi lebar form untuk ukuran yang lebih besar */
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+  margin-bottom: 60px;
+}
+
+/* Input styles */
+.rectangle-parent10 {
+  display: flex;
+  align-items: center;
+}
+
+.instance-child5 {
+  width: 30px; /* Atur ukuran gambar dan input sesuai kebutuhan */
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+input.instance-child5 {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  margin-left: -10px;
+  outline: none;
+}
+
+input.your-assessment1 {
+  flex: 1; /* Input mengisi sisa ruang tersedia */
+  padding: 10px;
+  font-size: 14px;
+  border: 2px solid rgb(0, 0, 0);
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 200px;
+  width: 95%;
+  border-radius: 15px;
+  margin-left: -10px;
+  outline: none;
+}
+
+input.your-assessment2 {
+  flex: 1; /* Input mengisi sisa ruang tersedia */
+  padding: 10px;
+  font-size: 14px;
+  border: 2px solid rgb(0, 0, 0);
+  height: 40px; /* Ubah tinggi input date sesuai kebutuhan */
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 95%;
+  border-radius: 15px;
+  margin-left: -10px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.your-assessment1 {
+  margin-bottom: 40px;
+}
+
+/* Container text styles */
+.give-your-assessment-container {
+  text-align: center;
+  font-size: 35px;
+  font-family: var(--font-cormorant-garamond);
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+
+.your1 {
+  font-family: var(--font-corinthia);
+  color: #fdc188;
+}
+
+/* Vector and button styles */
+.vector-parent5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.send-button-1 {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(to bottom right, #623001, #96571c, #ffbd80, #96571c);
+  color: white;
+  font-family: var(--font-cormorant-garamond);
+  font-size: 20px;
+  text-align: center;
+  margin-left: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  border: 1px solid black; /* Menambahkan border hitam */
+}
+
+.back-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(to bottom right, #623001, #96571c, #ffbd80, #96571c);
+  color: white;
+  font-family: var(--font-cormorant-garamond);
+  font-size: 20px;
+  text-align: center;
+  margin-left: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  border: 1px solid black; /* Menambahkan border hitam */
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
   .rectangle-parent9 {
-    position: absolute;
-    top: 119px;
-    left: calc(50% - 310px);
-    width: 620px;
-    height: 630px;
+    width: 90%;
   }
-  .testimoni-form {
-    width: 100%;
-    position: relative;
-    border-radius: var(--br-31xl);
-    background-color: var(--color-6);
-    height: 1024px;
-    overflow: hidden;
-    text-align: left;
-    font-size: var(--font-size-xl);
-    color: var(--color-darkgray-200);
-    font-family: var(--font-inter);
+}
+
+@media screen and (max-width: 576px) {
+  .rectangle-parent9 {
+    width: 95%;
   }
-  
+
+  input.instance-child5,
+  input.your-assessment {
+    font-size: 12px;
+  }
+}
+
+.success-message {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(139.41deg, #4e2e13, #fba045);
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  z-index: 1000;
+  text-align: center;
+}
+
