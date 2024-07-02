@@ -14,13 +14,13 @@ const AdminDashboard = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const reservationResponse = await axios.get('http://localhost:3000/api/reservations');
+        const reservationResponse = await axios.get('http://localhost:5066/api/reservations');
         setReservationData(reservationResponse.data);
 
-        const assessmentResponse = await axios.get('http://localhost:3000/api/assessments');
+        const assessmentResponse = await axios.get('http://localhost:5066/api/assessments');
         setAssessmentData(assessmentResponse.data);
 
-        const contactResponse = await axios.get('http://localhost:3000/api/contacts');
+        const contactResponse = await axios.get('http://localhost:5066/api/contacts');
         setContactData(contactResponse.data);
 
         setLoading(false); // Set loading to false when data is fetched
@@ -35,7 +35,7 @@ const AdminDashboard = () => {
 
   const handleConfirmReservation = async (id) => {
     try {
-      await axios.put(`http://localhost:3000/api/reservations/${id}/confirm`);
+      await axios.put(`http://localhost:5066/api/reservations/${id}/confirm`);
       setReservationData((prevData) =>
         prevData.map((reservation) =>
           reservation.id === id ? { ...reservation, status: 'Confirmed' } : reservation
@@ -49,13 +49,13 @@ const AdminDashboard = () => {
   const handleDelete = async (type, id) => {
     try {
       if (type === 'reservation') {
-        await axios.delete(`http://localhost:3000/api/reservations/${id}`);
+        await axios.delete(`http://localhost:5066/api/reservations/${id}`);
         setReservationData((prevData) => prevData.filter((reservation) => reservation.id !== id));
       } else if (type === 'assessment') {
-        await axios.delete(`http://localhost:3000/api/assessments/${id}`);
+        await axios.delete(`http://localhost:5066/api/assessments/${id}`);
         setAssessmentData((prevData) => prevData.filter((assessment) => assessment.id !== id));
       } else if (type === 'contact') {
-        await axios.delete(`http://localhost:3000/api/contacts/${id}`);
+        await axios.delete(`http://localhost:5066/api/contacts/${id}`);
         setContactData((prevData) => prevData.filter((contact) => contact.id !== id));
       }
     } catch (error) {

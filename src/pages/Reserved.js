@@ -74,7 +74,7 @@ const Reserved = () => {
     };
 
     try {
-      const response = await axios.post('http://localhost:3000/api/reservations', formData);
+      const response = await axios.post('http://localhost:5066/api/reservations', formData);
       console.log(response.data);
       const reservationId = response.data.reservationId;
 

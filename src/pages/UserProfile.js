@@ -18,7 +18,7 @@ const UserProfile = () => {
   }, []);
 
   const fetchReservations = () => {
-    axios.get('http://localhost:3000/api/reservations', {
+    axios.get('http://localhost:5066/api/reservations', {
       headers: {
         Authorization: `Bearer ${localStorage.getItem('token')}`,
       },
@@ -33,7 +33,7 @@ const UserProfile = () => {
   };
 
   const handleDelete = (id) => {
-    axios.delete(`http://localhost:3000/api/reservations/${id}`, {
+    axios.delete(`http://localhost:5066/api/reservations/${id}`, {
       headers: {
         Authorization: `Bearer ${localStorage.getItem('token')}`,
       },

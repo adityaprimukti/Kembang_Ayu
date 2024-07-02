@@ -12,7 +12,7 @@ const TestimoniForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:3000/api/assessments', {
+      await axios.post('http://localhost:5066/api/assessments', {
         name: name,
         assessment: assessment,
         day: day  // Adding day to the request body

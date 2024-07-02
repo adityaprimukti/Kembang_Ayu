@@ -11,7 +11,7 @@ const PaymentTest = () => {
     const serviceId = selectedService.toLowerCase().replace(/ /g, '_');
 
     // Fetch transaction token from server
-    const response = await fetch('http://localhost:5000/charge', {
+    const response = await fetch('http://localhost:5066/charge', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

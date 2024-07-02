@@ -21,7 +21,7 @@ const KontakPage = () => {
 
   const handleSubmit = (e) => {
   e.preventDefault();
-  axios.post("http://localhost:3000/api/contacts", formData)
+  axios.post("http://localhost:5066/api/contacts", formData)
     .then(response => {
       console.log(response.data);  // Log response data for debugging
       alert("Form submitted successfully!");
